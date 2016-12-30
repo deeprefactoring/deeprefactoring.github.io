@@ -4,6 +4,8 @@
 
 Если у вас есть интересная тема для доклада или вы хотите внести предложение по организации мероприятний, оставьте свой отзыв, используя [форму на GitHub](https://github.com/deeprefactoring/deeprefactoring.github.io/issues/new).
 
-[Мы на YouTube](https://www.youtube.com/channel/UCkmu866apk8FbOMuEIQvH0g)  
-[Мы в Facebook](https://www.facebook.com/groups/deeprefactoring/)  
-[Мы в Vkontakte](https://vk.com/deeprefactoring)  
+### Мы в соцсетях
+
+[![Мы на Youtube](/assets/img/youtube_48px.png)](https://www.youtube.com/channel/UCkmu866apk8FbOMuEIQvH0g)
+[![Мы в Facebook](/assets/img/facebook_48px.jpg)](https://www.facebook.com/groups/deeprefactoring/)
+[![Мы в Vkontakte](/assets/img/vkontakte_48px.png)](https://vk.com/deeprefactoring)
