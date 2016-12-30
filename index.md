@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+## Глубокий Рефакторинг
+
+Клуб разработчиков и профессионалов ИТ-индустрии Воронежа. Каждые месяц мы проводим встречи в неформальной обстановке, на которых любой желающий может сделать доклад на интересную тему, связанную с компьютерными технологиями и программированием. Кроме того, привествуются темы, затрагивающие т.н. soft skills, т.е. умения, помогающие в работе и развитии но не относящиеся напрямую к профессиональной деятельности.
 
 You can use the [editor on GitHub](https://github.com/deeprefactoring/deeprefactoring.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
