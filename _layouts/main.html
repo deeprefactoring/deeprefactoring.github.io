@@ -1,0 +1,46 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>{{page.title}}</title>
+
+    <meta name="description" content="{{page.description}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- Material Design fonts -->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/4.0.2/bootstrap-material-design.min.css" />
+
+    <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+
+{% include header.html %}
+
+<div class="container">
+
+    {{content}}
+
+</div>
+
+<br>
+<br>
+<br>
+{% include footer.html %}
+
+{% include google_analytics.html %}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>
