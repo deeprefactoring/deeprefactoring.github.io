@@ -1,1 +1,7 @@
+markdown: kramdown
 theme: jekyll-theme-tactile
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
