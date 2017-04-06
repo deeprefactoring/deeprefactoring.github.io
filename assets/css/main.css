@@ -2,3 +2,17 @@ footer {
     min-height: 250px;
 }
 
+#block-search {
+    margin-top: 10px;
+    float: right;
+    display: block;
+}
+
+#search-input {
+    height: 25px;
+}
+
+#search-button {
+    background: transparent;
+    border: none;
+}

@@ -2,11 +2,14 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+  - kramdown
+  - rouge
+  - jekyll-watch
   - jekyll-paginate
 exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
-paginate: 5
+paginate: 10
 host: 0.0.0.0
 port: 4000
