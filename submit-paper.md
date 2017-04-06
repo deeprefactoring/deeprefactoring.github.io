@@ -21,7 +21,7 @@ permalink: /submit-paper/
 [google slides](https://www.google.ru/slides/about/), 
 [slideshare](http://slideshare.com), 
 [prezi](https://prezi.com/). 
-При ее отсутствии слайды будут добавлены в профиль сообщества в slideshare.
+При ее отсутствии слайды будут добавлены в [профиль сообщества в slideshare](https://www.slideshare.net/deeprefactoring).
 
 ## Регламент доклада
 
