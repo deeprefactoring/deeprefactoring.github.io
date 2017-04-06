@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Заявка на доклад
-permalink: /submit-paper
+permalink: /submit-paper/
 ---
 
 Сообщество открыто и для новых докладчикам. 
