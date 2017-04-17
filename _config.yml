@@ -13,3 +13,12 @@ exclude:
 paginate: 10
 host: 0.0.0.0
 port: 4000
+
+collections:
+  speakers:
+      output: true
+      permalink: /:collection/:name
+  papers:
+      output: true
+      permalink: /:collection/:name
+

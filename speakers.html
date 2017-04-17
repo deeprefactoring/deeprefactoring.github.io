@@ -1,0 +1,23 @@
+---
+layout: page
+title: Докладчики
+permalink: /speakers/
+---
+
+{% for speaker in site.speakers %}
+
+<div class="row-fluid">
+    <div class="col-sm-2 col-md-2">
+        <div class="thumbnail">
+            <a href="{{speaker.url}}">
+                <img src="{{speaker.avatar}}" alt="{{speaker.title}}">
+            </a>
+            <div class="caption">
+                <p><a href="{{speaker.url}}">{{speaker.title}}</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endfor %}
