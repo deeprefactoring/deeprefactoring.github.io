@@ -2,8 +2,8 @@
 layout: paper
 
 title: Liscript - играемся в самодельный ЛИСП
-event_date: 27.04.2017
-meetup: 17
+event_date: 2017.04.27
+meetup_slug: 17
 draft: true
 
 # youtube: 

@@ -21,4 +21,7 @@ collections:
   papers:
       output: true
       permalink: /:collection/:name
+  meetups:
+      output: true
+      permalink: /:collection/:name
 

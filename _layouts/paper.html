@@ -11,15 +11,21 @@ layout: main
         <p>
             {{page.event_date | date: "%Y-%m-%d"}} -
             <a href="/speakers/{{page.speaker.slug}}">{{page.speaker.name}}</a>
+            |
+            {% for meetup in site.meetups %}
+                {% if meetup.slug == page.meetup_slug %}
+                <a href="{{meetup.url}}">{{meetup.title}}</a>
+                {% endif %}
+            {% endfor %}
         </p>
-            <p>{{page.about}}</p>
-    </div>
 
-    {% if page.draft %}
-    <!--<div class="container">-->
-        <!--Анонс выступления, site.meetups.17-->
-    <!--</div>-->
-    {% endif %}
+        {% if page.draft %}
+        <mark>Анонс выступления.</mark>
+        <br>
+        {% endif %}
+
+        <p>{{page.about}}</p>
+    </div>
 
     {% if page.youtube %}
     <div class="col-sm-12 col-md-6 col-lg-6">

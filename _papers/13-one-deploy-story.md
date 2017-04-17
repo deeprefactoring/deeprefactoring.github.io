@@ -2,7 +2,8 @@
 layout: paper
 
 title: История одного деплоя
-event_date: 27.12.2016
+event_date: 2016.12.27
+meetup_slug: 13
 
 youtube: https://www.youtube.com/embed/YJ5uS95NV0s
 speakerdeck_direct: https://speakerdeck.com/deeprefactoring/istoriia-odnogho-dieploia-stanislav-miekhonoshin
