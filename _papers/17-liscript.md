@@ -7,7 +7,6 @@ meetup_slug: 17
 speaker_slug: andrey-ivanov
 draft: true
 
-# youtube: 
 # youtube_id: 
 # speakerdeck_direct: 
 # speakerdeck_id: 
