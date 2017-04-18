@@ -10,12 +10,16 @@ layout: main
     <div class="container">
         <p>
             {{page.event_date | date: "%Y-%m-%d"}} -
-            <a href="/speakers/{{page.speaker.slug}}">{{page.speaker.name}}</a>
-            |
+
+            {% for speaker in site.speakers %}
+            {% if speaker.slug == page.speaker_slug %}
+            <a href="{{speaker.url}}">{{speaker.title}}</a>
+            {% endif %}
+            {% endfor %}
             {% for meetup in site.meetups %}
-                {% if meetup.slug == page.meetup_slug %}
-                <a href="{{meetup.url}}">{{meetup.title}}</a>
-                {% endif %}
+            {% if meetup.slug == page.meetup_slug %}
+            | <a href="{{meetup.url}}">{{meetup.title}}</a>
+            {% endif %}
             {% endfor %}
         </p>
 
@@ -27,18 +31,17 @@ layout: main
         <p>{{page.about}}</p>
     </div>
 
-    {% if page.youtube %}
+    {% if page.youtube_id %}
     <div class="col-sm-12 col-md-6 col-lg-6">
         <!--<iframe width="560" height="315" -->
         <div class="embed-responsive embed-responsive-16by9">
-            <iframe src="{{page.youtube}}"
+            <iframe src="https://www.youtube.com/embed/{{page.youtube_id}}"
                     frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
     {% endif %}
 
     {% if page.speakerdeck_id %}
-    <!--<div style="width: 560px">-->
     <div class="col-sm-12 col-md-6 col-lg-6">
         <script async class="speakerdeck-embed"
                 data-id="{{page.speakerdeck_id}}"
@@ -52,6 +55,3 @@ layout: main
     </div>
 
 </div>
-
-</div>
-

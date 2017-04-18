@@ -20,9 +20,10 @@ layout: main
             Список докладов:
         </h4>
         <ul>
-            {% for paper in page.papers %}
-            <li>
-                <a href="/papers/{{paper.slug}}">{{paper.title}}</a></li>
+            {% for paper in site.papers %}
+                {% if paper.speaker_slug == page.slug %}
+                <li><a href="{{paper.url}}">{{paper.title}}</a></li>
+                {% endif %}
             {% endfor %}
         </ul>
     </div>
