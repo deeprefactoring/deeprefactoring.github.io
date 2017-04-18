@@ -50,6 +50,16 @@ layout: main
     </div>
     {% endif %}
 
+    {% if page.slidescom_id %}
+    <div class="col-sm-12 col-md-6 col-lg-6">
+        <iframe src="//slides.com/{{page.slidescom_id}}/embed?style=light"
+                width="576" height="420"
+                scrolling="no" frameborder="0"
+                webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+    </div>
+    {% endif %}
+
     <div>
         {{content}}
     </div>
