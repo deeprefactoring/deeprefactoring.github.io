@@ -3,11 +3,11 @@ layout: page
 title: Встречи
 permalink: /meetups/
 ---
-
-{% for meetup in site.meetups %}
-
+{% assign meetups = (site.posts | sort: 'meetup_slug' | resevred) %}
+{% for meetup in meetups %}
+{% if meetup.categories contains 'meetup' %}
 <div class="row-fluid">
-    <div class="col-sm-2 col-md-2">
+    <div class="col-lg-3 col-md-3 col-sm-4">
         <div class="thumbnail">
             <a href="{{meetup.url}}">
                 <img src="{{meetup.logo}}" alt="{{meetup.title}}">
@@ -15,12 +15,15 @@ permalink: /meetups/
             <div class="caption">
                 <p>
                     <a href="{{meetup.url}}">
-                        {{meetup.event_date | date: "%Y-%m-%d"}} - {{meetup.title}}
+                        {{meetup.title}}
                     </a>
+                    <br>
+                    <small>{{meetup.event_date | date: "%Y-%m-%d"}}</small>
                 </p>
             </div>
         </div>
     </div>
 </div>
 
+{% endif %}
 {% endfor %}
