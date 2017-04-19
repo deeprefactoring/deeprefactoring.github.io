@@ -5,13 +5,19 @@ title: Глубокий Рефакторинг
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
+{% if post.categories contains 'blog' %}
 <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-<p class="author">
-    <span class="date">{{ post.date | date: "%d.%m.%Y" }}</span>
+<p>
+    <small>{{ post.date | date: "%d.%m.%Y" }}</small>
 </p>
 <div class="content">
     {{ post.content }}
 </div>
+
+<br>
+<br>
+<br>
+{% endif %}
 {% endfor %}
 
 {% if paginator.total_pages > 1 %}

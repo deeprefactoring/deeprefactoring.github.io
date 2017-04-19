@@ -16,8 +16,8 @@ layout: main
             <a href="{{speaker.url}}">{{speaker.title}}</a>
             {% endif %}
             {% endfor %}
-            {% for meetup in site.meetups %}
-            {% if meetup.slug == page.meetup_slug %}
+            {% for meetup in site.posts %}
+            {% if meetup.meetup_slug == page.meetup_slug %}
             | <a href="{{meetup.url}}">{{meetup.title}}</a>
             {% endif %}
             {% endfor %}
