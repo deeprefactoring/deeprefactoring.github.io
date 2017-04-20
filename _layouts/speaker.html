@@ -15,6 +15,17 @@ layout: main
         <p>
             {{page.about}}
         </p>
+        {% if page.links or page.email %}
+        <h4>Контакты:</h4>
+        <ul>
+            {% if page.email %}
+                <li><a href="mailto:{{page.email}}">{{page.email}}</a></li>
+            {% endif %}
+            {% for link in page.links %}
+                <li><a href="{{link.url}}">{{link.title}}</a></li>
+            {% endfor %}
+        </ul>
+        {% endif %}
 
         <h4>
             Список докладов:
