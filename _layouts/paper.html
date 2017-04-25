@@ -60,6 +60,15 @@ layout: main
     </div>
     {% endif %}
 
+    {% if page.slideshare_id %}
+    <div class="col-sm-12 col-md-6 col-lg-6">
+        <iframe src="//www.slideshare.net/slideshow/embed_code/key/{{page.slideshare_id}}"
+                width="576" height="420"
+                scrolling="no" frameborder="0"
+                webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+    {% endif %}
+
     <div>
         {{content}}
     </div>

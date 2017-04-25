@@ -3,7 +3,7 @@ layout: page
 title: Встречи
 permalink: /meetups/
 ---
-{% assign meetups = (site.posts | sort: 'meetup_slug' | resevred) %}
+{% assign meetups = site.posts | sort: 'meetup_slug' | reverse  %}
 {% for meetup in meetups %}
 {% if meetup.categories contains 'meetup' %}
 <div class="row-fluid">
