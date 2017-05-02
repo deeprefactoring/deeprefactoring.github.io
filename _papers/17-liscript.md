@@ -5,9 +5,8 @@ title: Liscript - играемся в самодельный ЛИСП
 event_date: 2017.04.27
 meetup_slug: 17
 speaker_slug: andrey-ivanov
-draft: true
 
-# youtube_id: 
+youtube_id: H1J5xVFDns0
 # speakerdeck_direct: 
 # speakerdeck_id: 
 
