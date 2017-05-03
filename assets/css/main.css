@@ -16,3 +16,14 @@ footer {
     background: transparent;
     border: none;
 }
+
+.meetup-thumbnail {
+    height: 320px;
+}
+.meetup-thumbnail img {
+    max-height: 230px;
+}
+.meetup-thumbnail .caption {
+    position: absolute;
+    bottom: 0;
+}

@@ -69,6 +69,15 @@ layout: main
     </div>
     {% endif %}
 
+    {% if page.iframe %}
+    <div class="col-sm-12 col-md-6 col-lg-6">
+        <iframe src="{{page.iframe}}"
+                width="576" height="420"
+                scrolling="no" frameborder="0"
+                webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+    {% endif %}
+
     <div>
         {{content}}
     </div>
