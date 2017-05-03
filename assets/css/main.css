@@ -17,6 +17,10 @@ footer {
     border: none;
 }
 
+.speaker-thumbnail {
+    height: 233px;
+}
+
 .meetup-thumbnail {
     height: 320px;
 }
@@ -24,6 +28,4 @@ footer {
     max-height: 230px;
 }
 .meetup-thumbnail .caption {
-    position: absolute;
-    bottom: 0;
 }
