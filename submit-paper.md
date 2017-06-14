@@ -20,7 +20,7 @@ permalink: /submit-paper/
    * мы можем разместить слайды в [профиль сообщества в speakerdeck](https://speakerdeck.com/deeprefactoring)   
 * Доклады отбираются в поряке очередности подачи и новые люди пользуются приоритетом
   
-Хостнги для слайдов
+Хостинги для слайдов
 * [https://speakerdeck.com/](https://speakerdeck.com/)
 * [https://slides.com](https://slides.com)
 * [https://slideshare.com](https://slideshare.com)
