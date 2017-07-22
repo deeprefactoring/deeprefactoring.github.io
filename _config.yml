@@ -6,6 +6,7 @@ gems:
   - rouge
   - jekyll-watch
   - jekyll-paginate
+  - jekyll-redirect-from
 exclude:
   - Gemfile
   - Gemfile.lock
