@@ -28,7 +28,7 @@ layout: main
         <br>
         {% endif %}
 
-        <p>{{page.about}}</p>
+        <p>{{page.about | markdownify}}</p>
     </div>
 
     {% if page.youtube_id %}
