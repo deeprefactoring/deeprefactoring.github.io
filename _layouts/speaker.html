@@ -13,7 +13,7 @@ layout: main
     <div class="col-sm-6 col-md-8 col-lg-9">
         <h4>О себе:</h4>
         <p>
-            {{page.about}}
+            {{page.about | markdownify}}
         </p>
         {% if page.links or page.email %}
         <h4>Контакты:</h4>
