@@ -6,9 +6,9 @@ event_date: 2017.07.31
 meetup_slug: 20
 speaker_slug: alex-mazalov
 
-youtube_id: 
-speakerdeck_direct: 
-speakerdeck_id: 
+youtube_id: ENGUmiVgu9U
+speakerdeck_direct: https://speakerdeck.com/deeprefactoring/patienty-v-it
+speakerdeck_id: 38b4c80bebf640d5ae99bbcad6e06e53
 
 about: |
   Патенты на код, алгоритм, решение, программу. Почему патентов стоит избегать, и отчего так сложно без них обойтись.  
