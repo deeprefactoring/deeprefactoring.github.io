@@ -1,7 +1,7 @@
 ---
 layout: paper
 
-title: Максим Поправко
+title: Боль, ужас и без-SQL-ность.
 event_date: 2016.12.27
 meetup_slug: 13
 speaker_slug: maxim-popravko
