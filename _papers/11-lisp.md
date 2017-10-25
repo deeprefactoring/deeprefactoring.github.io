@@ -1,7 +1,7 @@
 ---
 layout: paper
 
-title: Монады
+title: Lisp
 event_date: 2016.10.27
 meetup_slug: 11
 speaker_slug: ivan-grishaev
