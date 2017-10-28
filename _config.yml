@@ -13,6 +13,7 @@ exclude:
   - Gemfile.lock
   - vendor
 paginate: 10
+paginate_path: "/posts/page:num/"
 host: 0.0.0.0
 port: 4000
 
