@@ -29,3 +29,63 @@ footer {
 }
 .meetup-thumbnail .caption {
 }
+
+.fa {
+    vertical-align: top;
+    display: inline-block;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none !important;
+    margin: 5px 2px;
+    border-radius: 50%;
+    box-sizing: content-box;
+}
+
+.fa:visited, .fa:hover {
+    color: white !important;
+    text-decoration: none !important;;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-vk {
+    background: #45668e;
+    color: white;
+}
+
+.fa-telegram {
+    background: #0088cc;
+    color: white;
+}
+
+.fa-youtube {
+    background: #ff0000;
+    color: white;
+}
+
+.fa-speakerdesk {
+    fill: white;
+    height: 30px;
+    background: rgb(51, 153, 102);
+    color: white;
+}
+
+.fa-speakerdesk svg {
+    margin-top: -2px;
+    margin-left: 1px;
+}
+
+.fa-github {
+    background: #333;
+    color: white;
+}
