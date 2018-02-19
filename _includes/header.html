@@ -1,24 +1,30 @@
-<div class="navbar ">
-    <div class="container">
-        <div class="navbar-header">
-            <span href="../" class="navbar-brand">
-                <img src="/assets/img/square_50_50.png" alt="" width="40px">
-            </span>
-        </div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="/">
+    <img src="/assets/img/square_50_50.png" alt="" width="40px">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-
-        <div class="navbar-collapse" id="nav-main">
-            <ul class="nav navbar-nav">
-                <li><a href="/">Лента новостей</a></li>
-                <!--<li><a href="/meetups">Прошедшие встречи</a></li>-->
-                <li><a href="/speakers">Докладчики</a></li>
-                <li><a href="/meetups">Встречи</a></li>
-                <li><a href="/submit-paper/">Заявка на доклад</a></li>
-                <li><a href="/about/">О Сообществе</a></li>
-            </ul>
-
-            {% include search-form.html %}
-
-        </div>
-    </div>
-</div>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item {% if page.url == '/' %}active{% endif %}">
+          <a class="nav-link" href="/">Лента новостей</a>
+        </li>
+        <!--<li><a href="/meetups">Прошедшие встречи</a></li>-->
+        <li class="nav-item {% if page.url == '/speakers/' %}active{% endif %}">
+          <a class="nav-link" href="/speakers/">Докладчики</a>
+        </li>
+        <li class="nav-item {% if page.url == '/meetups/' %}active{% endif %}">
+          <a class="nav-link" href="/meetups/">Встречи</a>
+        </li>
+        <li class="nav-item {% if page.url == '/submit-paper/' %}active{% endif %}">
+          <a class="nav-link" href="/submit-paper/">Заявка на доклад</a>
+        </li>
+        <li class="nav-item {% if page.url == '/about/' %}active{% endif %}">
+          <a class="nav-link" href="/about/">О Сообществе</a>
+        </li>
+    </ul>
+    {% include search-form.html %}
+  </div>
+</nav>

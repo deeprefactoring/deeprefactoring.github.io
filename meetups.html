@@ -4,26 +4,35 @@ title: Встречи
 permalink: /meetups/
 ---
 {% assign meetups = site.posts | sort: 'meetup_slug' | reverse  %}
-{% for meetup in meetups %}
-{% if meetup.categories contains 'meetup' %}
-<div class="row-fluid">
-    <div class="col-lg-3 col-md-3 col-sm-4">
-        <div class="thumbnail meetup-thumbnail">
-            <a href="{{meetup.url}}">
-                <img src="{{meetup.logo}}" alt="{{meetup.title}}">
-            </a>
-            <div class="caption">
-                <p>
-                    <a href="{{meetup.url}}">
-                        {{meetup.title}}
-                    </a>
-                    <br>
-                    <small>{{meetup.event_date | date: "%Y-%m-%d"}}</small>
-                </p>
-            </div>
+
+<div class="row">
+  {% for meetup in meetups %}
+    {% if meetup.categories contains 'meetup' %}
+
+    <div class="col-lg-4">
+      <div class="card" style="width: 20rem; margin-bottom: 10px">
+        <img class="card-img-top" src="{{meetup.logo}}" alt="{{meetup.title}}">
+        <div class="card-body">
+          <h5 class="card-title">
+            <a href="{{meetup.url}}">{{meetup.title}}</a>
+          </h5>
+          <p class="font-weight-light">{{meetup.event_date | date: "%Y-%m-%d"}}</p>
         </div>
+      </div>
     </div>
+
+    {% endif %}
+  {% endfor %}
 </div>
 
-{% endif %}
+
+<div class="row">
+{% for speaker in site.speakers %}
+
+    {% assign modIndex = forloop.index | modulo: 3 %}
+    {% if modIndex == 0 %}
+    </div>
+    <div class="row">
+    {% endif %}
 {% endfor %}
+</div>
