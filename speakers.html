@@ -4,20 +4,22 @@ title: Докладчики
 permalink: /speakers/
 ---
 
-{% for speaker in site.speakers %}
-
-<div class="row-fluid">
-    <div class="col-sm-2 col-md-2">
-        <div class="thumbnail speaker-thumbnail">
-            <a href="{{speaker.url}}">
-                <img src="{{speaker.avatar}}" alt="{{speaker.title}}">
-            </a>
-            <div class="caption">
-                <p><a href="{{speaker.url}}">{{speaker.title}}</a>
-                </p>
-            </div>
+<div class="row">
+  {% for speaker in site.speakers %}
+    <div class="col-lg-3">
+      <div class="card" style="width: 16rem; margin-bottom: 10px">
+          <img class="card-img-top" src="{{speaker.avatar}}" alt="{{speaker.title}}">
+          <div class="card-body">
+              <h5 class="card-title">
+                <a href="{{speaker.url}}">{{speaker.title}}</a>
+              </h5>
+          </div>
         </div>
     </div>
+    {% assign modIndex = forloop.index | modulo: 4 %}
+    {% if modIndex == 0 %}
+      </div>
+      <div class="row">
+    {% endif %}
+  {% endfor %}
 </div>
-
-{% endfor %}
