@@ -93,3 +93,7 @@ footer {
     background: #333;
     color: white;
 }
+
+table {
+    margin-bottom: 10px;
+};
