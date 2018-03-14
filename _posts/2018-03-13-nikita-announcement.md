@@ -7,7 +7,6 @@ categories:
 
 ---
 
-[ava]:/assets/avatars/nikita-prokopov.png
 [font]:https://github.com/tonsky/FiraCode
 [lj]:http://tonsky.livejournal.com/
 [twi]:https://twitter.com/nikitonsky/
@@ -16,7 +15,12 @@ categories:
 Коллеги, отличная новость -- на мартовскую встречу к нам приезжает Никита
 Прокопов aka nikitonsky, известный программист и блогер.
 
-![][ava]
+<div class="col-sm-12 col-md-6 col-lg-6">
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe src="https://www.youtube.com/embed/15aazt9fHas" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+<br>
 
 Никита занимается фронтендом, пишет на Кложе, работает над [шрифтом
 FiraCode][font], ведет блог в [ЖЖ][lj] и [Твиттере][twi]. Зрителей ждут два
