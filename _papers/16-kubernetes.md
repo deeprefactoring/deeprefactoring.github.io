@@ -1,7 +1,7 @@
 ---
 layout: paper
 
-title: Kubernetes и Machine learning
+title: Kubernetes
 event_date: 2017.03.29
 meetup_slug: 16
 speaker_slug: roman-grebennikov
