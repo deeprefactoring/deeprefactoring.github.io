@@ -17,7 +17,7 @@ about: >
 
 links:
   - title: telegram
-    url: http://t.me/hdmast
+    url: http://t.elegram.ru/hdmast
   - title: github
     url: https://github.com/Headmast
 ---
