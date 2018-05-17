@@ -10,7 +10,7 @@ categories:
 [font]:https://github.com/tonsky/FiraCode
 [lj]:http://tonsky.livejournal.com/
 [twi]:https://twitter.com/nikitonsky/
-[chat]:https://t.elegram.ru/deeprefactoring
+[chat]:tg://resolve?domain=deeprefactoring
 
 Коллеги, отличная новость -- на мартовскую встречу к нам приезжает Никита
 Прокопов aka nikitonsky, известный программист и блогер.
