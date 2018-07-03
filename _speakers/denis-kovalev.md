@@ -2,7 +2,7 @@
 layout: speaker
 
 title: Денис Ковалев
-avatar: /assets/avatars/denis-kovalev.jpg
+avatar: /assets/avatars/denis-kovalev.png
 slug: denis-kovalev
 
 about: |
