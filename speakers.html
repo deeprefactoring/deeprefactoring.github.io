@@ -3,23 +3,28 @@ layout: page
 title: Докладчики
 permalink: /speakers/
 ---
+<style>
+  .card-layout {display: flex; align-items: stretch; flex-wrap: wrap; justify-content: center}
 
-<div class="row">
+  @media (max-width: 767px) {
+    .card-layout {display: flex; flex-direction: column; align-items: center}
+  }
+
+  .speaker-card {width: 16rem;}
+
+  @media (max-width: 767px) {
+    .speaker-card {width: 16rem;}
+  }
+</style>
+<div class="card-layout">
   {% for speaker in site.speakers %}
-    <div class="col-lg-3">
-      <div class="card" style="width: 16rem; margin-bottom: 10px">
-          <img class="card-img-top" src="{{speaker.avatar}}" alt="{{speaker.title}}">
-          <div class="card-body">
-              <h5 class="card-title">
-                <a href="{{speaker.url}}">{{speaker.title}}</a>
-              </h5>
-          </div>
+    <div class="card speaker-card card-margin">
+      <a href={{speaker.url}}><img class="card-img-top" src="{{speaker.avatar}}" alt="{{speaker.title}}"/></a>
+        <div class="card-body">
+          <h5 class="card-title">
+            <a href="{{speaker.url}}">{{speaker.title}}</a>
+          </h5>
         </div>
     </div>
-    {% assign modIndex = forloop.index | modulo: 4 %}
-    {% if modIndex == 0 %}
-      </div>
-      <div class="row">
-    {% endif %}
   {% endfor %}
 </div>
