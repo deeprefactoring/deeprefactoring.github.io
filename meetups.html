@@ -11,6 +11,18 @@ permalink: /meetups/
 </style>
 
 {% assign meetups = site.posts | sort: 'meetup_slug' | reverse  %}
+
+<ul class="list-inline">
+{% for meetup in meetups %}
+  {% if meetup.categories contains 'meetup' %}
+  <li>
+    <a href={{meetup.url}}><h5 class="card-title">#{{meetup.meetup_slug}} {{meetup.title}}</h5></a>
+    <p class="font-weight-light">{{meetup.event_date | date: "%Y-%m-%d"}}</span>
+  </li> 
+  {% endif %}
+{% endfor %}
+</ul>
+<!--
 <div class="card-columns one-column">
   {% for meetup in meetups %}
     {% if meetup.categories contains 'meetup' %}
@@ -26,3 +38,4 @@ permalink: /meetups/
     {% endif %}
   {% endfor %}
 </div>
+--->
