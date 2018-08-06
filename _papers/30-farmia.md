@@ -6,7 +6,7 @@ event_date: 2018.05.31
 meetup_slug: 30
 speaker_slug: roman-kubanev
 
-youtube_id:
+youtube_id: HfxVJEk2Y48
 speakerdeck_direct:
 speakerdeck_id:
 

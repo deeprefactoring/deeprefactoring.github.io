@@ -6,7 +6,7 @@ event_date: 2018.06.27
 meetup_slug: 31
 speaker_slug: sergey-milyaev
 
-youtube_id:
+youtube_id: aML4bZuKXnA
 speakerdeck_direct:
 speakerdeck_id:
 

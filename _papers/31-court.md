@@ -6,7 +6,7 @@ event_date: 2018.06.27
 meetup_slug: 31
 speaker_slug: alex-mazalov
 
-youtube_id:
+youtube_id: j0gbKYkUxBI
 speakerdeck_direct:
 speakerdeck_id:
 
