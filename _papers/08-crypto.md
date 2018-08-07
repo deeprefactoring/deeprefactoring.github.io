@@ -7,12 +7,11 @@ meetup_slug: 8
 speaker_slug: denis-kovalev
 
 youtube_id: grD13PMeGXA
-slideshare_direct: https://www.slideshare.net/DenisKovalev2/ss-64503995	
-slideshare_id: L5YFleBjcwZzzs
+speakerdeck_direct: https://speakerdeck.com/deeprefactoring/osnovy-kriptoghrafii
+speakerdeck_id: 12130cf3bfa24ca0ab7b3bdd453ca4fe
 
 about: >
   Небольшой экскурс по основным методам и алгоритмам, 
   применяемым в криптографии.
-
 
 ---
