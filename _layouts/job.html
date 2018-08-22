@@ -6,22 +6,4 @@ layout: main
     <h1>{{page.title}}</h1>
 </div>
 
-<div class="row">
-    <div class="container">
-        {{content}}
-    </div>
-</div>
-<br>
-
-{% if list_jobs %}
-<h4>Вакансии:</h4>
-<ul>
-    {% for job in site.category.job %}
-    {% if job.job_slug == page.slug %}
-    <li>
-        <a href="{{paper.url}}">{{job.title}}</a>
-    </li>
-    {% endif %}
-    {% endfor %}
-</ul>
-{% endif %}
+{{page.content}}

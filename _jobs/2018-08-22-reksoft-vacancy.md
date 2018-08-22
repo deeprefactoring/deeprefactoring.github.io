@@ -1,10 +1,8 @@
 ---
 layout: job
-title:  'Ищем front-end разработчика, Reksoft'
-permalink: /reksoft-front-react
-categories:
-  - blog
 
+title: Ищем front-end разработчика, Reksoft
+slug: 2018-08-22-reksoft-front-react
 ---
 
 [hh]:https://voronezh.hh.ru/vacancy/27206165
@@ -23,4 +21,4 @@ categories:
 
 Подробности [на HeadHunter][hh].
 Отвечу на ваши вопросы [в чате Глубокого рефакторинга][chat].
-@eldjarn
+[@eldjarn](/speakers/maxim-popravko)

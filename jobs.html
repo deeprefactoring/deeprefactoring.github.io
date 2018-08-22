@@ -1,13 +1,14 @@
 ---
-layout: job
+layout: page
 title: Вакансии
 permalink: /jobs/
 ---
 
+<ul>
+
 {% for job in site.jobs %}
-    <h5 class="card-title">
-      <a href="{{job.url}}">{{job.title}}</a>
-    </h5>
+    <li><a href="{{job.url}}">{{job.title}}</a></li>
 {% endfor %}
+</ul>
 
 <p>Добавить вакансию можно, создав PR в <a href="https://github.com/deeprefactoring/deeprefactoring.github.io">репозитории сайта</a></p>
