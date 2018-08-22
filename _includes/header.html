@@ -9,7 +9,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
         <li class="nav-item {% if page.url == '/' %}active{% endif %}">
-          <a class="nav-link" href="/">Лента новостей</a>
+          <a class="nav-link" href="/">Новости</a>
         </li>
         <!--<li><a href="/meetups">Прошедшие встречи</a></li>-->
         <li class="nav-item {% if page.url == '/speakers/' %}active{% endif %}">
@@ -26,6 +26,9 @@
         </li>
         <li class="nav-item {% if page.url == '/email/' %}active{% endif %}">
           <a class="nav-link" href="/pages/email/">Рассылка</a>
+        </li>
+        <li class="nav-item {% if page.url == '/jobs/' %}active{% endif %}">
+          <a class="nav-link" href="/jobs/">Вакансии 💰</a>
         </li>
     </ul>
     {% include search-form.html %}
