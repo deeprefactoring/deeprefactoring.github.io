@@ -29,3 +29,6 @@ collections:
   meetups:
       output: true
       permalink: /:collection/:name
+  jobs:
+      output: true
+      permalink: /:collection/:name
