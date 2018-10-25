@@ -11,6 +11,6 @@ speakerdeck_direct:
 speakerdeck_id:
 
 about: |
-  Как мы в [Teamplify](http://teamplify.com/) пытались заменить менеджера простым скриптом на питоне.
+  Как мы пытались заменить менеджера простым скриптом на питоне с помощью [Teamplify](http://teamplify.com/).
 
 ---
