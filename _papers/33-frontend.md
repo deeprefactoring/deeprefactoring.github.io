@@ -6,7 +6,7 @@ event_date: 2018.09.04
 meetup_slug: 33
 speaker_slug: artem-trubachev
 
-youtube_id:
+youtube_id: LDkyDoRVrjI
 speakerdeck_direct:
 speakerdeck_id:
 
