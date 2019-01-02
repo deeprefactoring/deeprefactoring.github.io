@@ -6,7 +6,7 @@ event_date: 2018.09.27
 meetup_slug: 34
 speaker_slug: ilya-kaznacheev
 
-youtube_id:
+youtube_id: Am1tvEyXoc0
 speakerdeck_direct:
 speakerdeck_id:
 
