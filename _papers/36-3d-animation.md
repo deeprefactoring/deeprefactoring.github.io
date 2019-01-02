@@ -6,7 +6,7 @@ event_date: 2018.11.28
 meetup_slug: 36
 speaker_slug: anastasiya-kovrizhkina
 
-youtube_id:
+youtube_id: tDvEXu1poV0
 speakerdeck_direct:
 speakerdeck_id:
 
