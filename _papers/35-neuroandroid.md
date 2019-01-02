@@ -6,7 +6,7 @@ event_date: 2018.10.30
 meetup_slug: 35
 speaker_slug: vyacheslav-tarasov
 
-youtube_id:
+youtube_id: Uyc5I6NMstg
 speakerdeck_direct:
 speakerdeck_id:
 
