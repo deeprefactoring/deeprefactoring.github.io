@@ -6,7 +6,7 @@ event_date: 2018.10.30
 meetup_slug: 35
 speaker_slug: alexandra-kosilova
 
-youtube_id:
+youtube_id: GR8k-VrcUeM
 speakerdeck_direct:
 speakerdeck_id:
 
