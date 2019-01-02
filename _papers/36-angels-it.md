@@ -6,7 +6,7 @@ event_date: 2018.11.28
 meetup_slug: 36
 speaker_slug: ivan-astafurov
 
-youtube_id:
+youtube_id: uXFULfGRiMU
 speakerdeck_direct:
 speakerdeck_id:
 
