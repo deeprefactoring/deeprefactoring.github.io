@@ -5,7 +5,7 @@ title: Ищем front-end разработчика, Reksoft
 slug: 2018-08-22-reksoft-front-react
 ---
 
-[hh]:https://voronezh.hh.ru/vacancy/27206165
+[hh]:https://voronezh.hh.ru/vacancy/29155280
 [chat]:tg://resolve?domain=deeprefactoring
 
 Приглашаем в свою команду в Воронеже Front-end разработчика с отличным знанием React
@@ -18,6 +18,8 @@ slug: 2018-08-22-reksoft-front-react
 есть возможность использовать удобный стек технологий, пройти по всем этапам разработки и получить уникальный опыт!
 
 Знания Java (сервисы на Spring Boot) будут неоспоримым плюсом.
+
+Зарплата от 100к для middle разработчика.
 
 Подробности [на HeadHunter][hh].
 Отвечу на ваши вопросы [в чате Глубокого рефакторинга][chat].
