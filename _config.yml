@@ -1,7 +1,6 @@
 markdown: kramdown
 theme: minima
 gems:
-  - jekyll-feed
   - kramdown
   - rouge
   - jekyll-watch
