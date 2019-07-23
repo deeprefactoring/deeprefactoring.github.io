@@ -6,7 +6,7 @@ avatar: /assets/avatars/ilya-kaznacheev.jpg
 slug: ilya-kaznacheev
 
 about: >
-  ABAP-разработчик, основатель SAP Community Voronezh, люблю кофе
+  Backend разработчик, основатель SAP Community Voronezh, люблю кофе. Пишу на Go, Python в свободное время езжу на конференции и задаю вопросы.
   
 links:
   - title: kaznacheev.me
@@ -16,5 +16,3 @@ links:
   - title: SAP Community Voronezh
     url: http://www.sapcmntvrn.ru/
 ---
-
-
