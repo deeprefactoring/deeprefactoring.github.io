@@ -6,7 +6,7 @@ event_date: 2019.04.24
 meetup_slug: 41
 speaker_slug: ivan-grishaev
 
-youtube_id: 
+youtube_id: HQWARS6ZcEU
 
 about: |
   Расскажу как устроены тесты для браузера. Как работает Селениум, зачем писать свою библиотеку. Протокол WebDriver и Немного Кложи (¬‿¬)
