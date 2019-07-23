@@ -6,8 +6,8 @@ event_date: 2019.06.26
 meetup_slug: 44
 speaker_slug: andrey-kogun
 
-youtube_id:
-speakerdeck_direct:
+youtube_id: GFnqbPIAPrg
+speakerdeck_direct: https://speakerdeck.com/deeprefactoring/prikladnaia-kodoghienieratsiia-dlia-java-razrabotchika
 speakerdeck_id:
 
 about: |
