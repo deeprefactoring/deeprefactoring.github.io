@@ -6,8 +6,8 @@ event_date: 2019.06.26
 meetup_slug: 44
 speaker_slug: andrey-belyaev
 
-youtube_id:
-speakerdeck_direct:
+youtube_id: O7tEuZihzDA
+speakerdeck_direct: https://speakerdeck.com/deeprefactoring/umien-shaiem-kolichiestvo-rieflieksii-v-kodie
 speakerdeck_id:
 
 about: |
