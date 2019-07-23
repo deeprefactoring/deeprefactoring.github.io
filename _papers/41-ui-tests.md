@@ -7,6 +7,7 @@ meetup_slug: 41
 speaker_slug: ivan-grishaev
 
 youtube_id: HQWARS6ZcEU
+speakerdeck_direct: https://speakerdeck.com/deeprefactoring/ui-tiesty-v-brauzierie
 
 about: |
   Расскажу как устроены тесты для браузера. Как работает Селениум, зачем писать свою библиотеку. Протокол WebDriver и Немного Кложи (¬‿¬)
