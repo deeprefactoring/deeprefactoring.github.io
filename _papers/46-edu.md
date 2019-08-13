@@ -11,6 +11,6 @@ speakerdeck_direct:
 speakerdeck_id:
 
 about: |
-Ярослав расскажет про разницу между воронежским и берлинским образованием на примере Master of Web Science Cologne University of Applied Science vs ВГУ Математический Факультет
+    Ярослав расскажет про разницу между воронежским и берлинским образованием на примере Master of Web Science Cologne University of Applied Science vs ВГУ Математический Факультет
 
 ---
