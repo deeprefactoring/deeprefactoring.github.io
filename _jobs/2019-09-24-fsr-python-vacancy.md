@@ -1,3 +1,14 @@
+---
+layout: job
+
+title: Требуется Python разработчик, ООО "ФСР"
+slug: 2019-09-24-fsr-python-vacancy
+---
+
+[fsr]:https://firststars.de
+
+[FirstStars][fsr]
+
 Разыскивается Python Backend разработчик. Опыт от 2х лет.
 
 ## Обязанности:
