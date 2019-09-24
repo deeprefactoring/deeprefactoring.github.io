@@ -1,9 +1,13 @@
 ---
 layout: job
 
-title: Frontend-разработчик
+title: Требуется Frontend-разработчик, ООО "ФСР"
 slug: 2019-09-24-fsr-vacancy-front
 ---
+
+[fsr]:https://firststars.de
+
+[FirstStars][fsr]
 
 Разыскивается FrontEnd разработчик. Опыт от 2х лет.
 
