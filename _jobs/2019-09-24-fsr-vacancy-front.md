@@ -40,4 +40,4 @@ slug: 2019-09-24-fsr-vacancy-front
 З/П: от 70 т.р.
 
 ## Контакты
-[Telegram](https://tlgg.ru/Liliya)
+[Telegram](tg://resolve?domain=lirioblanko)
