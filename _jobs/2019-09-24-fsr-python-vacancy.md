@@ -31,4 +31,4 @@
 З/П: от 70 т.р.
 
 ## Контакты
-[Telegram](https://tlgg.ru/lirioblanko)
+[Telegram](tg://resolve?domain=lirioblanko)
