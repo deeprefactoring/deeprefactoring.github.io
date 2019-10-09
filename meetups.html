@@ -3,15 +3,31 @@ layout: page
 title: Встречи
 permalink: /meetups/
 ---
+<style>
+  .one-column {}
+  @media (max-width: 767px) {
+    .one-column {display: flex; flex-direction: column;}
+  }
+</style>
+
 {% assign meetups = site.posts | sort: 'meetup_slug' | reverse  %}
 
-<div class="row">
+<ul class="list-inline">
+{% for meetup in meetups %}
+  {% if meetup.categories contains 'meetup' %}
+  <li>
+    <a href={{meetup.url}}><h5 class="card-title">#{{meetup.meetup_slug}} {{meetup.title}}</h5></a>
+    <p class="font-weight-light">{{meetup.event_date | date: "%Y-%m-%d"}}</span>
+  </li> 
+  {% endif %}
+{% endfor %}
+</ul>
+<!--
+<div class="card-columns one-column">
   {% for meetup in meetups %}
     {% if meetup.categories contains 'meetup' %}
-
-    <div class="col-lg-4">
-      <div class="card" style="width: 20rem; margin-bottom: 10px">
-        <img class="card-img-top" src="{{meetup.logo}}" alt="{{meetup.title}}">
+      <div class="card card-margin" style="max-width: 30rem;">
+        <a href={{meetup.url}}><img class="card-img-top" src="{{meetup.logo}}" alt="{{meetup.title}}"></a>
         <div class="card-body">
           <h5 class="card-title">
             <a href="{{meetup.url}}">{{meetup.title}}</a>
@@ -19,20 +35,7 @@ permalink: /meetups/
           <p class="font-weight-light">{{meetup.event_date | date: "%Y-%m-%d"}}</p>
         </div>
       </div>
-    </div>
-
     {% endif %}
   {% endfor %}
 </div>
-
-
-<div class="row">
-{% for speaker in site.speakers %}
-
-    {% assign modIndex = forloop.index | modulo: 3 %}
-    {% if modIndex == 0 %}
-    </div>
-    <div class="row">
-    {% endif %}
-{% endfor %}
-</div>
+--->
