@@ -16,6 +16,8 @@ paginate_path: "/posts/page:num/"
 host: 0.0.0.0
 port: 4000
 
+future: true
+
 permalink: /:categroy/:title/
 
 collections:
