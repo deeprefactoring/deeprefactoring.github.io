@@ -2,7 +2,7 @@
 layout: paper
 
 title: "Design First: как спецификации API облегчают жизнь"
-event_date: 2020.08.27
+event_date: 2020.09.03
 meetup_slug: 51
 speaker_slug: ilya-kaznacheev
 
